@@ -1,3 +1,3 @@
 a = 6
 b = 5
-print(a-b)
+print("THe difference is:", a-b)
