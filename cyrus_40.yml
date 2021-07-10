@@ -1,0 +1,9 @@
+---
+- name: cyrusfernandes-40
+  hosts: cyrus_40
+  tasks:
+    - name: create a file
+      copy:
+         content: cyrus fernandes 40 ansible project
+         dest: /home/cyrusferns_40.txt
+  
